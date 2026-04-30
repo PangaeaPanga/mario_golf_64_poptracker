@@ -8,7 +8,7 @@
     "content": [
       {
         "type": "array",
-        "orientation": "vertical",
+        "orientation": "horizontal",
         "margin": "0,0",
         "content": [
           {
