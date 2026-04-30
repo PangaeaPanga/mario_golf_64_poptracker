@@ -14,7 +14,7 @@
             /*"type": "layout",
             "key": "shared_item_grid"*/
             "type": "itemgrid",
-            "item_margin": "4, 4",
+            "item_margin": "4, 25",
             "h_alignment": "left",
             "item_size": "7",
             "rows": [
