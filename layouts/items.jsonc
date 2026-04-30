@@ -8,21 +8,46 @@
     "content": [
       {
         "type": "array",
-        "orientation": "horizontal",
+        "orientation": "vertical",
         "margin": "0,0",
         "content": [
           {
             "type": "itemgrid",
-            "item_margin": "10, 10",
+            "item_margin": "4, 4",
             "h_alignment": "left",
+            "item_size": "4",
             "rows": [
               [
-                "toggle",
-                "progressive"
+                "short",
+                "middle",
+                "long",
+                "approach",
+                "power",
+                "wedges",
+                "irons",
+                "woods"
               ],
               [
-                "consumable",
-                "progressive_toggle"
+                "peach",
+                "maple",
+                "metalmario",
+                "goldtrophies"
+              ],
+              [
+                "toadtournament",
+                "koopacup",
+                "shyguyinternational",
+                "yoshichampionship",
+                "booclassic",
+                "marioopen"
+              ],
+              [
+                "toadhighlands",
+                "koopapark",
+                "shyguydesert",
+                "yoshisisland",
+                "boovalley",
+                "mariosstar"
               ]
             ]
           }

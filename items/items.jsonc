@@ -1,10 +1,154 @@
 [
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
   {
-    "name": "Toggle",
+    "name": "Short Putter",
     "type": "toggle",
-    "img": "images/items/toggle.png",
-    "codes": "toggle"
+    "img": "images/items/short_putter.png",
+    "codes": "short"
+  },
+  {
+    "name": "Middle Putter",
+    "type": "toggle",
+    "img": "images/items/middle_putter.png",
+    "codes": "middle"
+  },
+  {
+    "name": "Long Putter",
+    "type": "toggle",
+    "img": "images/items/long_putter.png",
+    "codes": "long"
+  },
+  {
+    "name": "Approach Shot",
+    "type": "toggle",
+    "img": "images/items/approach_shot.png",
+    "codes": "approach"
+  },
+  {
+    "name": "Wedges",
+    "type": "toggle",
+    "img": "images/items/wedges.png",
+    "codes": "wedges"
+  },
+  {
+    "name": "Irons",
+    "type": "toggle",
+    "img": "images/items/irons.png",
+    "codes": "irons"
+  },
+  {
+    "name": "Woods",
+    "type": "toggle",
+    "img": "images/items/woods.png",
+    "codes": "woods"
+  },
+  {
+    "name": "Power Shot",
+    "type": "toggle",
+    "img": "images/items/power_shot.png",
+    "codes": "power"
+  },
+  {
+    "name": "Peach",
+    "type": "toggle",
+    "img": "images/items/peach.png",
+    "codes": "peach"
+  },
+  {
+    "name": "Maple",
+    "type": "toggle",
+    "img": "images/items/maple.png",
+    "codes": "maple"
+  },
+  {
+    "name": "Metal Mario",
+    "type": "toggle",
+    "img": "images/items/metal_mario.png",
+    "codes": "metalmario"
+  },
+  {
+    "name": "Gold Trophies",
+    "type": "consumable",
+    "img": "images/items/gold_trophies.png",
+    "max_quantity": 5,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 20,
+    "codes": "goldtrophies"
+  },
+  {
+    "name": "Toad Tournament",
+    "type": "toggle",
+    "img": "images/items/toad_tournament.png",
+    "codes": "toadtournament"
+  },
+  {
+    "name": "Koopa Cup",
+    "type": "toggle",
+    "img": "images/items/koopa_cup.png",
+    "codes": "koopacup"
+  },
+  {
+    "name": "Shy Guy International",
+    "type": "toggle",
+    "img": "images/items/shy_guy_international.png",
+    "codes": "shyguyinternational"
+  },
+  {
+    "name": "Yoshi Championship",
+    "type": "toggle",
+    "img": "images/items/yoshi_championship.png",
+    "codes": "yoshichampionship"
+  },
+  {
+    "name": "Boo Classic",
+    "type": "toggle",
+    "img": "images/items/boo_classic.png",
+    "codes": "booclassic"
+  },
+  {
+    "name": "Mario Open",
+    "type": "toggle",
+    "img": "images/items/mario_open.png",
+    "codes": "marioopen"
+  },
+  {
+    "name": "Toad Highlands - Ring Shot",
+    "type": "toggle",
+    "img": "images/items/toad_highlands.png",
+    "codes": "toadhighlands"
+  },
+  {
+    "name": "Koopa Park - Ring Shot",
+    "type": "toggle",
+    "img": "images/items/koopa_park.png",
+    "codes": "koopapark"
+  },
+  {
+    "name": "Shy Guy Desert - Ring Shot",
+    "type": "toggle",
+    "img": "images/items/shy_guy_desert.png",
+    "codes": "shyguydesert"
+  },
+  {
+    "name": "Yoshi's Island - Ring Shot",
+    "type": "toggle",
+    "img": "images/items/yoshis_island.png",
+    "codes": "yoshisisland"
+  },
+  {
+    "name": "Boo Valley - Ring Shot",
+    "type": "toggle",
+    "img": "images/items/boo_valley.png",
+    "codes": "boovalley"
+  },
+  {
+    "name": "Mario's Star - Ring Shot",
+    "type": "toggle",
+    "img": "images/items/marios_star.png",
+    "codes": "mariosstar"
   },
   {
     "name": "Progressive",
@@ -20,35 +164,6 @@
       {
         "img": "images/items/progressive_2.png",
         "codes": "progressive_2",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
-    "name": "Consumable",
-    "type": "consumable",
-    "img": "images/items/consumable.png",
-    "max_quantity": 8,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 1,
-    "overlay_background": "#000000",
-    "overlay_font_size": 8,
-    "codes": "consumable"
-  },
-  {
-    "name": "Progressive Toggle",
-    "type": "progressive_toggle",
-    "initial_stage_idx": 0,
-    "stages": [
-      {
-        "img": "images/items/progressive.png",
-        "codes": "progressive_toggle",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_toggle_2",
         "inherit_codes": false
       }
     ]
