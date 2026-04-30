@@ -1,6 +1,6 @@
 # PopTracker for Mario Golf 64
 
-This is a PopTracker pack Mario Golf 64 Archipelago Randomizer.
+This is a PopTracker pack for the Mario Golf 64 Archipelago Randomizer.
 
 ## Installation
 
