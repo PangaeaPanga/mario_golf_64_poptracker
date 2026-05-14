@@ -1,15 +1,75 @@
 [
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
   {
-    "name": "map1",
-    "location_size": 48,
+    "name": "tournament1",
+    "location_size": 60,
     "location_border_thickness": 4,
-    "img": "images/maps/map.png"
+    "img": "images/maps/toad_tournament_scorecard.png"
   },
   {
-    "name": "map2",
-    "location_size": 48,
+    "name": "tournament2",
+    "location_size": 60,
     "location_border_thickness": 4,
-    "img": "images/maps/map_2.png"
+    "img": "images/maps/koopa_cup_scorecard.png"
+  },
+  {
+    "name": "tournament3",
+    "location_size": 60,
+    "location_border_thickness": 4,
+    "img": "images/maps/shy_guy_international_scorecard.png"
+  },
+  {
+    "name": "tournament4",
+    "location_size": 60,
+    "location_border_thickness": 4,
+    "img": "images/maps/yoshi_championship_scorecard.png"
+  },
+  {
+    "name": "tournament5",
+    "location_size": 60,
+    "location_border_thickness": 4,
+    "img": "images/maps/boo_classic_scorecard.png"
+  },
+  {
+    "name": "tournament6",
+    "location_size": 60,
+    "location_border_thickness": 4,
+    "img": "images/maps/mario_open_scorecard.png"
+  },
+  {
+    "name": "ring1",
+    "location_size": 90,
+    "location_border_thickness": 4,
+    "img": "images/maps/toad_highlands_ringshot.png"
+  },
+  {
+    "name": "ring2",
+    "location_size": 90,
+    "location_border_thickness": 4,
+    "img": "images/maps/koopa_park_ringshot.png"
+  },
+  {
+    "name": "ring3",
+    "location_size": 90,
+    "location_border_thickness": 4,
+    "img": "images/maps/shy_guy_desert_ringshot.png"
+  },
+  {
+    "name": "ring4",
+    "location_size": 90,
+    "location_border_thickness": 4,
+    "img": "images/maps/yoshis_island_ringshot.png"
+  },
+  {
+    "name": "ring5",
+    "location_size": 90,
+    "location_border_thickness": 4,
+    "img": "images/maps/boo_valley_ringshot.png"
+  },
+  {
+    "name": "ring6",
+    "location_size": 90,
+    "location_border_thickness": 4,
+    "img": "images/maps/marios_star_ringshot.png"
   }
 ]

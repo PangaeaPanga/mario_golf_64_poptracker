@@ -6,6 +6,7 @@
 -- if you run into issues when touching A LOT of items/locations here, see the comment about Tracker.AllowDeferredLogicUpdate in autotracking.lua
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/map_mapping.lua")
 -- used for hint tracking to quickly map hint status to a value from the Highlight enum
 HINT_STATUS_MAPPING = {}
 if Highlight then
@@ -288,12 +289,89 @@ function onScout(location_id, location_name, item_id, item_name, item_player)
 	-- not implemented yet :(
 end
 
+local holeId
+local tabs
+
 -- called when a bounce message is received
 function onBounce(json)
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 		print(string.format("called onBounce: %s", dump_table(json)))
 	end
 	-- your code goes here
+	
+	-- Taken from TWW lua
+	local slots = json["slots"]
+    -- Lua does not support `slots ~= {Archipelago.PlayerNumber}`, so check the first and second values in the table.
+    if not slots or not (slots[1] == Archipelago.PlayerNumber and slots[2] == nil) then
+        -- All Bounced messages to be processed by this tracker are expected to target the player's slot specifically.
+        return
+    end
+
+    local data = json["data"]
+    if not data then
+        return
+    end
+
+	local game_mode = data["modeId"]
+	local current_course = data["courseId"]
+	local current_hole = data["holeId"]
+
+	-- Auto tab
+	if has("auto_tab") then
+
+		-- Filter out invalid game modes/courses/holes
+		-- TODO: change this for when future game modes/courses are supported
+		if (game_mode ~= 5 and game_mode ~= 9) or current_course > 6 or current_hole >= 18 then print("Skipped") return end
+
+		tabs = MAP_MAPPING[game_mode] and MAP_MAPPING[game_mode][current_course]
+
+		if game_mode ~= 255 or current_course ~= 255 then
+
+			-- Activate tab
+			for i, tab in ipairs(tabs) do
+				Tracker:UiHint("ActivateTab", tab)
+			end
+
+			--print(string.format(game_mode))
+			--print(string.format(current_course))
+			--print(string.format(current_hole))
+		end
+	end
+
+	-- Player tracking
+	if has("hole_track") and current_hole < 18 then
+
+		-- Convert hole number to holeId to locate player position
+		holeId = MAP_MAPPING[game_mode][current_course][3]
+		holeId = tostring(holeId .. "_" .. string.format("%0.2i", current_hole + 1))
+		onHoleChange(holeId)
+
+		--print(holeId)
+	end
+end
+
+function tabTracking()
+	-- Check if auto-tabbing is on or off
+	setting = Tracker:FindObjectForCode("auto_tab")
+
+	if setting.Active then
+		-- Activate tab
+		for i, tab in ipairs(tabs) do
+			Tracker:UiHint("ActivateTab", tab)
+		end
+	end
+end
+
+function holeTracking()
+	-- Check if hole tracking is on or off
+	setting = Tracker:FindObjectForCode("hole_track")
+	hole = Tracker:FindObjectForCode(holeId)
+
+	if setting.Active then
+		hole.Active = true
+	else
+		hole.Active = false
+	end
 end
 
 -- called whenever Archipelago:Get returns data from the data storage or
@@ -388,6 +466,29 @@ function updateHint(hint, sections_to_update)
 	end
 end
 
+-- Player tracking. Code adapted from the TTYD PopTracker
+local current_hole
+
+function onHoleChange(hole)
+    local new_hole = hole
+    local currentHole = current_hole and Tracker:FindObjectForCode(current_hole)
+    local newHole
+
+	newHole = Tracker:FindObjectForCode(new_hole)
+
+	if currentHole and currentHole.Active then
+		currentHole.Active = false
+	end
+	
+	--if has("PlayerTrackOn") then
+		if newHole then
+			newHole.Active = true
+		end
+
+		current_hole = new_hole
+	--end
+end
+
 -- add AP callbacks
 -- un-/comment as needed
 Archipelago:AddClearHandler("clear handler", onClear)
@@ -399,5 +500,7 @@ if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
 end
 Archipelago:AddRetrievedHandler("retrieved handler", onDataStorageUpdate)
 Archipelago:AddSetReplyHandler("set reply handler", onDataStorageUpdate)
--- Archipelago:AddScoutHandler("scout handler", onScout)
--- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+--Archipelago:AddScoutHandler("scout handler", onScout)
+Archipelago:AddBouncedHandler("bounce handler", onBounce)
+ScriptHost:AddWatchForCode("map_handler", "auto_tab", tabTracking)
+ScriptHost:AddWatchForCode("player_handler", "hole_track", holeTracking)

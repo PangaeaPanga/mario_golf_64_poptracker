@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Auto Tab Switching",
+    "type": "toggle",
+    "initial_active_state": true,
+    "img": "images/items/auto_tab_on.png",
+    "disabled_img": "images/items/auto_tab_off.png",
+    "codes": "auto_tab"
+  },
+  {
+    "name": "Hole Tracking",
+    "type": "toggle",
+    "initial_active_state": true,
+    "img": "images/items/hole_track_on.png",
+    "disabled_img": "images/items/hole_track_off.png",
+    "codes": "hole_track"
+  }
+]

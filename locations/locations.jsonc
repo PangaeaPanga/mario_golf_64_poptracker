@@ -1,54 +1,3055 @@
 [
   {
-    "name": "Example Parent",
+    "name": "Toad Tournament",
+    "access_rules": ["$hasToadTournament"],
     "children": [
       {
-        "name": "Example Location 1",
-        "access_rules": [
-          //read as: progressive_2 or toggle
-          "progressive_2",
-          "toggle"
+        "name": "Hole 1",
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 910,
+            "y": 1275
+          }
         ],
         "sections": [
           {
-            "name": "Example Section 1",
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
             "item_count": 1
-          },
-          {
-            "name": "Example Section 2",
-            "item_count": 3
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "map1",
-            "x": 1750,
-            "y": 700
-          },
-          {
-            "map": "map2",
-            "x": 1000,
-            "y": 500
           }
         ]
       },
       {
-        "name": "Example Location 2",
-        "access_rules": [
-          //read as: progressive_toggle_2 and has more than 4 consumable
-          "progressive_toggle_2, $has_more_then_n_consumable|4"
+        "name": "Hole 2",
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 1090,
+            "y": 1275
+          }
         ],
         "sections": [
           {
-            "name": "Example Section 1",
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_b"
+            ],
             "item_count": 1
           }
-        ],
+        ]
+      },
+      {
+        "name": "Hole 3",
         "map_locations": [
           {
-            "map": "map1",
-            "x": 1500,
-            "y": 400
+            "map": "tournament1",
+            "x": 1270,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_c"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 4",
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 1450,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_c"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 5",
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 1630,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 6",
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 1810,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 7",
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 1990,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 8",
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 2170,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_c"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 9",
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 2350,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 10",
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 910,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 11",
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 1090,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 12",
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 1270,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 13",
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 1450,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_c"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 14",
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 1630,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 15",
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 1810,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 16",
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 1990,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 17",
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 2170,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 18",
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 2350,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Trophies",
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 2800,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bronze Trophy",
+            "chest_unopened_img": "images/items/bronze_trophy.png",
+            "chest_opened_img": "images/items/trophy_grey.png",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Silver Trophy",
+            "chest_unopened_img": "images/items/silver_trophy.png",
+            "chest_opened_img": "images/items/trophy_grey.png",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Gold Trophy",
+            "chest_unopened_img": "images/items/gold_trophy.png",
+            "chest_opened_img": "images/items/trophy_grey.png",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Koopa Cup",
+    "access_rules": ["$hasKoopaCup"],
+    "children": [
+      {
+        "name": "Hole 1",
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 910,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 2",
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1090,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 3",
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1270,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_c"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 4",
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1450,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 5",
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1630,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 6",
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1810,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_c"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 7",
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1990,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 8",
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 2170,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 9",
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 2350,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 10",
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 910,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 11",
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1090,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 12",
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1270,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 13",
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1450,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_c"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 14",
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1630,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 15",
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1810,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 16",
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1990,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 17",
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 2170,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_c"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 18",
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 2350,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_c"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Trophies",
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 2800,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bronze Trophy",
+            "chest_unopened_img": "images/items/bronze_trophy.png",
+            "chest_opened_img": "images/items/trophy_grey.png",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Silver Trophy",
+            "chest_unopened_img": "images/items/silver_trophy.png",
+            "chest_opened_img": "images/items/trophy_grey.png",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Gold Trophy",
+            "chest_unopened_img": "images/items/gold_trophy.png",
+            "chest_opened_img": "images/items/trophy_grey.png",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shy Guy International",
+    "access_rules": ["$hasShyGuyInternational"],
+    "children": [
+      {
+        "name": "Hole 1",
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 910,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 2",
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1090,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 3",
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1270,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_c"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 4",
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1450,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 5",
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1630,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 6",
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1810,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 7",
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1990,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_c"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 8",
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 2170,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 9",
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 2350,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_c"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 10",
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 910,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 11",
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1090,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 12",
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1270,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_c"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 13",
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1450,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 14",
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1630,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 15",
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1810,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 16",
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1990,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_c"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 17",
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 2170,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 18",
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 2350,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Trophies",
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 2800,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bronze Trophy",
+            "chest_unopened_img": "images/items/bronze_trophy.png",
+            "chest_opened_img": "images/items/trophy_grey.png",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Silver Trophy",
+            "chest_unopened_img": "images/items/silver_trophy.png",
+            "chest_opened_img": "images/items/trophy_grey.png",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Gold Trophy",
+            "chest_unopened_img": "images/items/gold_trophy.png",
+            "chest_opened_img": "images/items/trophy_grey.png",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Yoshi Championship",
+    "access_rules": ["$hasYoshiChampionship"],
+    "children": [
+      {
+        "name": "Hole 1",
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 910,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 2",
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1090,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 3",
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1270,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_c"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 4",
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1450,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 5",
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1630,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 6",
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1810,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_c"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 7",
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1990,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 8",
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 2170,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 9",
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 2350,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 10",
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 910,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 11",
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1090,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 12",
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1270,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 13",
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1450,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 14",
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1630,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 15",
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1810,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 16",
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1990,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 17",
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 2170,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 18",
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 2350,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_c"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Trophies",
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 2800,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bronze Trophy",
+            "chest_unopened_img": "images/items/bronze_trophy.png",
+            "chest_opened_img": "images/items/trophy_grey.png",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Silver Trophy",
+            "chest_unopened_img": "images/items/silver_trophy.png",
+            "chest_opened_img": "images/items/trophy_grey.png",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Gold Trophy",
+            "chest_unopened_img": "images/items/gold_trophy.png",
+            "chest_opened_img": "images/items/trophy_grey.png",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Boo Classic",
+    "chest_unopened_img": "images/items/birdie_badge.png",
+    "chest_opened_img": "images/items/birdie_badge_grey.png",
+    "access_rules": ["$hasBooClassic"],
+    "children": [
+      {
+        "name": "Hole 1",
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 910,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 2",
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1090,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 3",
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1270,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 4",
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1450,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 5",
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1630,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 6",
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1810,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 7",
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1990,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 8",
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 2170,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 9",
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 2350,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 10",
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 910,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 11",
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1090,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 12",
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1270,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 13",
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1450,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 14",
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1630,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 15",
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1810,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 16",
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1990,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 17",
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 2170,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 18",
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 2350,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Trophies",
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 2800,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bronze Trophy",
+            "chest_unopened_img": "images/items/bronze_trophy.png",
+            "chest_opened_img": "images/items/trophy_grey.png",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Silver Trophy",
+            "chest_unopened_img": "images/items/silver_trophy.png",
+            "chest_opened_img": "images/items/trophy_grey.png",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Gold Trophy",
+            "chest_unopened_img": "images/items/gold_trophy.png",
+            "chest_opened_img": "images/items/trophy_grey.png",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mario Open",
+    "access_rules": ["$hasMarioOpen"],
+    "children": [
+      {
+        "name": "Hole 1",
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 910,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 2",
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1090,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 3",
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1270,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 4",
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1450,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 5",
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1630,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_f"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 6",
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1810,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 7",
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1990,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 8",
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 2170,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 9",
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 2350,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 10",
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 910,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 11",
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1090,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 12",
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1270,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_c"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 13",
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1450,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 14",
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1630,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 15",
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1810,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 16",
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1990,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 17",
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 2170,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_c"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole 18",
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 2350,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Birdie Badge",
+            "access_rules": [
+              "$rule_d"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Trophies",
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 2800,
+            "y": 2075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bronze Trophy",
+            "chest_unopened_img": "images/items/bronze_trophy.png",
+            "chest_opened_img": "images/items/trophy_grey.png",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Silver Trophy",
+            "chest_unopened_img": "images/items/silver_trophy.png",
+            "chest_opened_img": "images/items/trophy_grey.png",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Gold Trophy",
+            "chest_unopened_img": "images/items/gold_trophy.png",
+            "chest_opened_img": "images/items/trophy_grey.png",
+            "access_rules": [
+              "$rule_k"
+            ],
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Toad Highlands",
+    "access_rules": ["$hasToadHighlands"],
+    "chest_unopened_img": "images/items/ring_shot.png",
+    "chest_opened_img": "images/items/ring_shot_grey.png",
+    "children": [
+      {
+        "name": "Ring Shot 1",
+        "map_locations": [
+          {
+            "map": "ring1",
+            "x": 620,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Give It a Shot!",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 2",
+        "map_locations": [
+          {
+            "map": "ring1",
+            "x": 1000,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Climb That Hill!",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 3",
+        "map_locations": [
+          {
+            "map": "ring1",
+            "x": 1380,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ring in the Valley",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 4",
+        "map_locations": [
+          {
+            "map": "ring1",
+            "x": 1760,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "3 Rings Above the Pond",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 5",
+        "map_locations": [
+          {
+            "map": "ring1",
+            "x": 2140,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Creek Crossing",
+            "access_rules": [
+              "$rule_e"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 6",
+        "map_locations": [
+          {
+            "map": "ring1",
+            "x": 2520,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Every Which Way!",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Koopa Park",
+    "access_rules": ["$hasKoopaPark"],
+    "chest_unopened_img": "images/items/ring_shot.png",
+    "chest_opened_img": "images/items/ring_shot_grey.png",
+    "children": [
+      {
+        "name": "Ring Shot 1",
+        "map_locations": [
+          {
+            "map": "ring2",
+            "x": 620,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "R-RR-Ring!",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 2",
+        "map_locations": [
+          {
+            "map": "ring2",
+            "x": 1000,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Arch at Forked Creek",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 3",
+        "map_locations": [
+          {
+            "map": "ring2",
+            "x": 1380,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Switchback Swinging!",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 4",
+        "map_locations": [
+          {
+            "map": "ring2",
+            "x": 1760,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hide-and-Go-Ring!",
+            "access_rules": [
+              "$rule_f"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 5",
+        "map_locations": [
+          {
+            "map": "ring2",
+            "x": 2140,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Power Past the Pond!",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 6",
+        "map_locations": [
+          {
+            "map": "ring2",
+            "x": 2520,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Arches Here & There",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shy Guy Desert",
+    "access_rules": ["$hasShyGuyDesert"],
+    "chest_unopened_img": "images/items/ring_shot.png",
+    "chest_opened_img": "images/items/ring_shot_grey.png",
+    "children": [
+      {
+        "name": "Ring Shot 1",
+        "map_locations": [
+          {
+            "map": "ring3",
+            "x": 620,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Anthill Bunker",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 2",
+        "map_locations": [
+          {
+            "map": "ring3",
+            "x": 1000,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cactus Arms",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 3",
+        "map_locations": [
+          {
+            "map": "ring3",
+            "x": 1380,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Pyramid Ring",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 4",
+        "map_locations": [
+          {
+            "map": "ring3",
+            "x": 1760,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Center of the Bull's-Eye",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 5",
+        "map_locations": [
+          {
+            "map": "ring3",
+            "x": 2140,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Shoot for the Stones!",
+            "access_rules": [
+              "$rule_f"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 6",
+        "map_locations": [
+          {
+            "map": "ring3",
+            "x": 2520,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sand Dune Summit",
+            "access_rules": [
+              "$rule_f"
+            ],
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Yoshi's Island",
+    "access_rules": ["$hasYoshisIsland"],
+    "chest_unopened_img": "images/items/ring_shot.png",
+    "chest_opened_img": "images/items/ring_shot_grey.png",
+    "children": [
+      {
+        "name": "Ring Shot 1",
+        "map_locations": [
+          {
+            "map": "ring4",
+            "x": 620,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Doughnut Hole",
+            "access_rules": [
+              "$rule_g"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 2",
+        "map_locations": [
+          {
+            "map": "ring4",
+            "x": 1000,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Scraping the Cliff",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 3",
+        "map_locations": [
+          {
+            "map": "ring4",
+            "x": 1380,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dunk the Bunker!",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 4",
+        "map_locations": [
+          {
+            "map": "ring4",
+            "x": 1760,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Drop into the Valley!",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 5",
+        "map_locations": [
+          {
+            "map": "ring4",
+            "x": 2140,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Arches in the Hills",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 6",
+        "map_locations": [
+          {
+            "map": "ring4",
+            "x": 2520,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Zig and Zag",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Boo Valley",
+    "access_rules": ["$hasBooValley"],
+    "chest_unopened_img": "images/items/ring_shot.png",
+    "chest_opened_img": "images/items/ring_shot_grey.png",
+    "children": [
+      {
+        "name": "Ring Shot 1",
+        "map_locations": [
+          {
+            "map": "ring5",
+            "x": 620,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Bottleneck",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 2",
+        "map_locations": [
+          {
+            "map": "ring5",
+            "x": 1000,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Past the Peak",
+            "access_rules": [
+              "$rule_c"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 3",
+        "map_locations": [
+          {
+            "map": "ring5",
+            "x": 1380,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Egg Hill",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 4",
+        "map_locations": [
+          {
+            "map": "ring5",
+            "x": 1760,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Emerging from the Mist",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 5",
+        "map_locations": [
+          {
+            "map": "ring5",
+            "x": 2140,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Valley in the Valley",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 6",
+        "map_locations": [
+          {
+            "map": "ring5",
+            "x": 2520,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Duck and Dodge!",
+            "access_rules": [
+              "$rule_c"
+            ],
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mario's Star",
+    "access_rules": ["$hasMariosStar"],
+    "chest_unopened_img": "images/items/ring_shot.png",
+    "chest_opened_img": "images/items/ring_shot_grey.png",
+    "children": [
+      {
+        "name": "Ring Shot 1",
+        "map_locations": [
+          {
+            "map": "ring6",
+            "x": 620,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bloober Calamari Rings",
+            "access_rules": [
+              "$rule_h"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 2",
+        "map_locations": [
+          {
+            "map": "ring6",
+            "x": 1000,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Skull & Bones",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 3",
+        "map_locations": [
+          {
+            "map": "ring6",
+            "x": 1380,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Lakitu's Glasses",
+            "access_rules": [
+              "$rule_a"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 4",
+        "map_locations": [
+          {
+            "map": "ring6",
+            "x": 1760,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Lakitu's Glasses",
+            "access_rules": [
+              "$rule_b"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 5",
+        "map_locations": [
+          {
+            "map": "ring6",
+            "x": 2140,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sorry, Bob-omb!",
+            "access_rules": [
+              "$rule_e"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 6",
+        "map_locations": [
+          {
+            "map": "ring6",
+            "x": 2520,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Princess Peach's Ring",
+            "access_rules": [
+              "$rule_c"
+            ],
+            "item_count": 1
           }
         ]
       }

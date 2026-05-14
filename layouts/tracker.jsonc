@@ -28,20 +28,90 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Map 1",
+              "title": "Tournaments",
               "content": {
-                "type": "map",
-                "maps": [
-                  "map1"
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Toad Tournament",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "tournament1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Koopa Cup",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "tournament2"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Shy Guy International",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "tournament3"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Yoshi Championship",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "tournament4"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Boo Classic",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "tournament5"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Mario Open",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "tournament6"
+                      ]
+                    }
+                  }
                 ]
               }
             },
             {
-              "title": "Map 2",
+              "title": "Ring Shot",
               "content": {
-                "type": "map",
-                "maps": [
-                  "map2"
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Toad Highlands",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ring1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Koopa Park",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ring2"
+                      ]
+                    }
+                  }
                 ]
               }
             }
@@ -79,20 +149,126 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Map 1",
+              "title": "Tournaments",
               "content": {
-                "type": "map",
-                "maps": [
-                  "map1"
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Toad Tournament",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "tournament1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Koopa Cup",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "tournament2"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Shy Guy International",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "tournament3"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Yoshi Championship",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "tournament4"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Boo Classic",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "tournament5"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Mario Open",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "tournament6"
+                      ]
+                    }
+                  }
                 ]
               }
             },
             {
-              "title": "Map 2",
+              "title": "Ring Shot",
               "content": {
-                "type": "map",
-                "maps": [
-                  "map2"
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Toad Highlands",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ring1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Koopa Park",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ring2"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Shy Guy International",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ring3"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Yoshi's Island",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ring4"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Boo Valley",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ring5"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Mario's Star",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ring6"
+                      ]
+                    }
+                  }
                 ]
               }
             }

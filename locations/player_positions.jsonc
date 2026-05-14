@@ -1,0 +1,2210 @@
+[
+  {
+    "name": "PP_Toad Tournament",
+    "access_rules": ["{}"],
+    "children": [
+      {
+        "name": "Hole 1",
+        "visibility_rules": ["tt_01"],
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 910,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 2",
+        "visibility_rules": ["tt_02"],
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 1090,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 3",
+        "visibility_rules": ["tt_03"],
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 1270,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 4",
+        "visibility_rules": ["tt_04"],
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 1450,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 5",
+        "visibility_rules": ["tt_05"],
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 1630,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 6",
+        "visibility_rules": ["tt_06"],
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 1810,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 7",
+        "visibility_rules": ["tt_07"],
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 1990,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 8",
+        "visibility_rules": ["tt_08"],
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 2170,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 9",
+        "visibility_rules": ["tt_09"],
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 2350,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 10",
+        "visibility_rules": ["tt_10"],
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 910,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 11",
+        "visibility_rules": ["tt_11"],
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 1090,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 12",
+        "visibility_rules": ["tt_12"],
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 1270,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 13",
+        "visibility_rules": ["tt_13"],
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 1450,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 14",
+        "visibility_rules": ["tt_14"],
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 1630,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 15",
+        "visibility_rules": ["tt_15"],
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 1810,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 16",
+        "visibility_rules": ["tt_16"],
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 1990,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 17",
+        "visibility_rules": ["tt_17"],
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 2170,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 18",
+        "visibility_rules": ["tt_18"],
+        "map_locations": [
+          {
+            "map": "tournament1",
+            "x": 2350,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "PP_Koopa Cup",
+    "access_rules": ["{}"],
+    "children": [
+      {
+        "name": "Hole 1",
+        "visibility_rules": ["kc_01"],
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 910,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 2",
+        "visibility_rules": ["kc_02"],
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1090,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 3",
+        "visibility_rules": ["kc_03"],
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1270,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 4",
+        "visibility_rules": ["kc_04"],
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1450,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 5",
+        "visibility_rules": ["kc_05"],
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1630,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 6",
+        "visibility_rules": ["kc_06"],
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1810,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 7",
+        "visibility_rules": ["kc_07"],
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1990,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 8",
+        "visibility_rules": ["kc_08"],
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 2170,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 9",
+        "visibility_rules": ["kc_09"],
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 2350,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 10",
+        "visibility_rules": ["kc_10"],
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 910,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 11",
+        "visibility_rules": ["kc_11"],
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1090,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 12",
+        "visibility_rules": ["kc_12"],
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1270,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 13",
+        "visibility_rules": ["kc_13"],
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1450,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 14",
+        "visibility_rules": ["kc_14"],
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1630,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 15",
+        "visibility_rules": ["kc_15"],
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1810,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 16",
+        "visibility_rules": ["kc_16"],
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 1990,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 17",
+        "visibility_rules": ["kc_17"],
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 2170,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 18",
+        "visibility_rules": ["kc_18"],
+        "map_locations": [
+          {
+            "map": "tournament2",
+            "x": 2350,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "PP_Shy Guy International",
+    "access_rules": ["{}"],
+    "children": [
+      {
+        "name": "Hole 1",
+        "visibility_rules": ["si_01"],
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 910,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 2",
+        "visibility_rules": ["si_02"],
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1090,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 3",
+        "visibility_rules": ["si_03"],
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1270,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 4",
+        "visibility_rules": ["si_04"],
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1450,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 5",
+        "visibility_rules": ["si_05"],
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1630,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 6",
+        "visibility_rules": ["si_06"],
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1810,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 7",
+        "visibility_rules": ["si_07"],
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1990,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 8",
+        "visibility_rules": ["si_08"],
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 2170,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 9",
+        "visibility_rules": ["si_09"],
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 2350,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 10",
+        "visibility_rules": ["si_10"],
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 910,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 11",
+        "visibility_rules": ["si_11"],
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1090,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 12",
+        "visibility_rules": ["si_12"],
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1270,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 13",
+        "visibility_rules": ["si_13"],
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1450,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 14",
+        "visibility_rules": ["si_14"],
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1630,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 15",
+        "visibility_rules": ["si_15"],
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1810,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 16",
+        "visibility_rules": ["si_16"],
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 1990,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 17",
+        "visibility_rules": ["si_17"],
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 2170,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 18",
+        "visibility_rules": ["si_18"],
+        "map_locations": [
+          {
+            "map": "tournament3",
+            "x": 2350,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "PP_Yoshi Championship",
+    "access_rules": ["{}"],
+    "children": [
+      {
+        "name": "Hole 1",
+        "visibility_rules": ["yc_01"],
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 910,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 2",
+        "visibility_rules": ["yc_02"],
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1090,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 3",
+        "visibility_rules": ["yc_03"],
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1270,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 4",
+        "visibility_rules": ["yc_04"],
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1450,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 5",
+        "visibility_rules": ["yc_05"],
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1630,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 6",
+        "visibility_rules": ["yc_06"],
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1810,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 7",
+        "visibility_rules": ["yc_07"],
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1990,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 8",
+        "visibility_rules": ["yc_08"],
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 2170,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 9",
+        "visibility_rules": ["yc_09"],
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 2350,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 10",
+        "visibility_rules": ["yc_10"],
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 910,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 11",
+        "visibility_rules": ["yc_11"],
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1090,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 12",
+        "visibility_rules": ["yc_12"],
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1270,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 13",
+        "visibility_rules": ["yc_13"],
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1450,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 14",
+        "visibility_rules": ["yc_14"],
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1630,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 15",
+        "visibility_rules": ["yc_15"],
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1810,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 16",
+        "visibility_rules": ["yc_16"],
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 1990,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 17",
+        "visibility_rules": ["yc_17"],
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 2170,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 18",
+        "visibility_rules": ["yc_18"],
+        "map_locations": [
+          {
+            "map": "tournament4",
+            "x": 2350,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "PP_Boo Classic",
+    "access_rules": ["{}"],
+    "children": [
+      {
+        "name": "Hole 1",
+        "visibility_rules": ["bc_01"],
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 910,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 2",
+        "visibility_rules": ["bc_02"],
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1090,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 3",
+        "visibility_rules": ["bc_03"],
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1270,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 4",
+        "visibility_rules": ["bc_04"],
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1450,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 5",
+        "visibility_rules": ["bc_05"],
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1630,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 6",
+        "visibility_rules": ["bc_06"],
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1810,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 7",
+        "visibility_rules": ["bc_07"],
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1990,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 8",
+        "visibility_rules": ["bc_08"],
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 2170,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 9",
+        "visibility_rules": ["bc_09"],
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 2350,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 10",
+        "visibility_rules": ["bc_10"],
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 910,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 11",
+        "visibility_rules": ["bc_11"],
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1090,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 12",
+        "visibility_rules": ["bc_12"],
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1270,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 13",
+        "visibility_rules": ["bc_13"],
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1450,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 14",
+        "visibility_rules": ["bc_14"],
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1630,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 15",
+        "visibility_rules": ["bc_15"],
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1810,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 16",
+        "visibility_rules": ["bc_16"],
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 1990,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 17",
+        "visibility_rules": ["bc_17"],
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 2170,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 18",
+        "visibility_rules": ["bc_18"],
+        "map_locations": [
+          {
+            "map": "tournament5",
+            "x": 2350,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "PP_Mario Open",
+    "access_rules": ["{}"],
+    "children": [
+      {
+        "name": "Hole 1",
+        "visibility_rules": ["mo_01"],
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 910,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 2",
+        "visibility_rules": ["mo_02"],
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1090,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 3",
+        "visibility_rules": ["mo_03"],
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1270,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 4",
+        "visibility_rules": ["mo_04"],
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1450,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 5",
+        "visibility_rules": ["mo_05"],
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1630,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 6",
+        "visibility_rules": ["mo_06"],
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1810,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 7",
+        "visibility_rules": ["mo_07"],
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1990,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 8",
+        "visibility_rules": ["mo_08"],
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 2170,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 9",
+        "visibility_rules": ["mo_09"],
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 2350,
+            "y": 890,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 10",
+        "visibility_rules": ["mo_10"],
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 910,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 11",
+        "visibility_rules": ["mo_11"],
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1090,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 12",
+        "visibility_rules": ["mo_12"],
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1270,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 13",
+        "visibility_rules": ["mo_13"],
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1450,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 14",
+        "visibility_rules": ["mo_14"],
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1630,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 15",
+        "visibility_rules": ["mo_15"],
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1810,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 16",
+        "visibility_rules": ["mo_16"],
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 1990,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 17",
+        "visibility_rules": ["mo_17"],
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 2170,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Hole 18",
+        "visibility_rules": ["mo_18"],
+        "map_locations": [
+          {
+            "map": "tournament6",
+            "x": 2350,
+            "y": 1690,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "PP_Toad Highlands",
+    "access_rules": ["{}"],
+    "children": [
+      {
+        "name": "Ring Shot 1",
+        "visibility_rules": ["th_01"],
+        "map_locations": [
+          {
+            "map": "ring1",
+            "x": 620,
+            "y": 830,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 2",
+        "visibility_rules": ["th_02"],
+        "map_locations": [
+          {
+            "map": "ring1",
+            "x": 1000,
+            "y": 830,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 3",
+        "visibility_rules": ["th_03"],
+        "map_locations": [
+          {
+            "map": "ring1",
+            "x": 1380,
+            "y": 830,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 4",
+        "visibility_rules": ["th_04"],
+        "map_locations": [
+          {
+            "map": "ring1",
+            "x": 1760,
+            "y": 830,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 5",
+        "visibility_rules": ["th_05"],
+        "map_locations": [
+          {
+            "map": "ring1",
+            "x": 2140,
+            "y": 830,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Ring Shot 6",
+        "visibility_rules": ["th_06"],
+        "map_locations": [
+          {
+            "map": "ring1",
+            "x": 2520,
+            "y": 830,
+            "border_thickness": 5,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": []
+          }
+        ]
+      }
+    ]
+  },
+]
