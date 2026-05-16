@@ -8,8 +8,7 @@ Just download the latest build or source and put in your packs folder (unpacked)
 
 ## Future Plans
 
-- Course tracker for birdie badges and ring shot clears
-- Autoswitching maps based on what course/mode you are in
+- Track misc. data (goal requirements, required courses, etc.)
 
 ## More Info
 
