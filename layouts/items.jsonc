@@ -18,6 +18,18 @@
             "item_size": "4",
             "rows": [
               [
+                "death_link",
+                "goal",
+                "gold_trophies_required",
+                "gold_trophy_difficulty",
+                "wind_difficulty",
+                "ringshotsanity",
+                "holesanity",
+                "windsanity",
+                "pinsanity",
+                "minigolfsanity"
+              ],
+              [
                 "short",
                 "middle",
                 "long",

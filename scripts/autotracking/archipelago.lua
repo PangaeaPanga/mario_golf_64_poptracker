@@ -103,6 +103,35 @@ end
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
 	-- put any code here that slot_data should affect (toggling setting items for example)
+	local death_link = Tracker:FindObjectForCode("death_link")
+	death_link.Active = (slot_data['death_link'] ~= 0)
+	
+	local goal = Tracker:FindObjectForCode("goal")
+	goal.Active = (slot_data['goal'] ~= 0)
+
+	local trophies = Tracker:FindObjectForCode("gold_trophies_required")
+	trophies.AcquiredCount = slot_data['trophy_count']
+
+	local gold_trophy_difficulty = Tracker:FindObjectForCode("gold_trophy_difficulty")
+	gold_trophy_difficulty.AcquiredCount = -10 - slot_data['gold_trophy_difficulty']
+
+	local wind_difficulty = Tracker:FindObjectForCode("wind_difficulty")
+	wind_difficulty.AcquiredCount = slot_data['wind_difficulty']
+
+	local ringshotsanity = Tracker:FindObjectForCode("ringshotsanity")
+	ringshotsanity.Active = (slot_data['ringshotsanity'] ~= 0)
+
+	local holesanity = Tracker:FindObjectForCode("holesanity")
+	holesanity.Active = (slot_data['holesanity'] ~= 0)
+
+	local windsanity = Tracker:FindObjectForCode("windsanity")
+	windsanity.Active = (slot_data['windsanity'] ~= 0)
+
+	local pinsanity = Tracker:FindObjectForCode("pinsanity")
+	pinsanity.Active = (slot_data['pinsanity'] ~= 0)
+
+	local minigolfsanity = Tracker:FindObjectForCode("minigolfsanity")
+	minigolfsanity.Active = (slot_data['minigolfsanity'] ~= 0)
 end
 
 -- called right after an AP slot is connected

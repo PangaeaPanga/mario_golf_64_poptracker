@@ -1,6 +1,8 @@
 [
   {
     "name": "Toad Tournament",
+    "chest_unopened_img": "images/items/birdie_badge.png",
+    "chest_opened_img": "images/items/birdie_badge_grey.png",
     "access_rules": ["$hasToadTournament"],
     "children": [
       {
@@ -388,6 +390,8 @@
   },
   {
     "name": "Koopa Cup",
+    "chest_unopened_img": "images/items/birdie_badge.png",
+    "chest_opened_img": "images/items/birdie_badge_grey.png",
     "access_rules": ["$hasKoopaCup"],
     "children": [
       {
@@ -775,6 +779,8 @@
   },
   {
     "name": "Shy Guy International",
+    "chest_unopened_img": "images/items/birdie_badge.png",
+    "chest_opened_img": "images/items/birdie_badge_grey.png",
     "access_rules": ["$hasShyGuyInternational"],
     "children": [
       {
@@ -1162,6 +1168,8 @@
   },
   {
     "name": "Yoshi Championship",
+    "chest_unopened_img": "images/items/birdie_badge.png",
+    "chest_opened_img": "images/items/birdie_badge_grey.png",
     "access_rules": ["$hasYoshiChampionship"],
     "children": [
       {
@@ -1938,6 +1946,8 @@
   },
   {
     "name": "Mario Open",
+    "chest_unopened_img": "images/items/birdie_badge.png",
+    "chest_opened_img": "images/items/birdie_badge_grey.png",
     "access_rules": ["$hasMarioOpen"],
     "children": [
       {
@@ -2988,7 +2998,7 @@
         ],
         "sections": [
           {
-            "name": "Lakitu's Glasses",
+            "name": "Bowser's Big Mouth",
             "access_rules": [
               "$rule_a"
             ],

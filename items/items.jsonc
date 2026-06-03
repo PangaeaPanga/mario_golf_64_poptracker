@@ -151,21 +151,94 @@
     "codes": "mariosstar"
   },
   {
-    "name": "Progressive",
+    "name": "Death Link",
+    "type": "toggle",
+    "img": "images/items/death_link.png",
+    "codes": "death_link"
+  },
+  {
+    "name": "Goal",
     "type": "progressive",
-    "allow_disabled": true,
-    "initial_stage_idx": 0,
-    "stages": [
-      {
-        "img": "images/items/progressive.png",
-        "codes": "progressive",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_2",
-        "inherit_codes": false
-      }
+    "allow_disabled": false,
+    "stages":[
+        {
+            "name": "Goal: Win Mario Open",
+            "img": "images/items/gold_trophy.png",
+            "codes": "goal, win_mario_open",
+            "inherit_codes": false
+        },
+        {
+            "name": "Goal: Gold Trophies",
+            "img": "images/items/goal_gold_trophies.png",
+            "codes": "goal, gold_trophies",
+            "inherit_codes": false
+        }
     ]
+  },
+  {
+    "name": "Gold Trophies Required",
+    "type": "consumable",
+    "img": "images/items/goal_gold_trophies.png",
+    "overlay_background": "#000000",
+    "initial_quantity": 0,
+    "min_quantity": 0,
+    "max_quantity": 200,
+    "increment": 1,
+    "overlay_font_size": 14,
+    "codes": "gold_trophies_required"
+  },
+  {
+    "name": "Gold Trophy Difficulty",
+    "type": "consumable",
+    "allow_disabled": false,
+    "img": "images/items/goal_gold_trophies.png",
+    "overlay_background": "#000000",
+    "initial_quantity": -14,
+    "min_quantity": -30,
+    "max_quantity": -10,
+    "increment": 1,
+    "overlay_font_size": 14,
+    "codes": "gold_trophy_difficulty"
+  },
+  {
+    "name": "Wind Difficulty",
+    "type": "consumable",
+    "img": "images/items/wind_difficulty/wind.png",
+    "initial_quantity": 10,
+    "min_quantity": 0,
+    "max_quantity": 21,
+    "increment": 1,
+    "overlay_font_size": 14,
+    "codes": "wind_difficulty"
+  },
+  {
+    "name": "Ringshotsanity",
+    "type": "toggle",
+    "img": "images/items/ring_shot.png",
+    "codes": "ringshotsanity"
+  },
+  {
+    "name": "Holesanity",
+    "type": "toggle",
+    "img": "images/items/holesanity.png",
+    "codes": "holesanity"
+  },
+  {
+    "name": "Windsanity",
+    "type": "toggle",
+    "img": "images/items/windsanity.png",
+    "codes": "windsanity"
+  },
+  {
+    "name": "Pinsanity",
+    "type": "toggle",
+    "img": "images/items/pinsanity.png",
+    "codes": "pinsanity"
+  },
+  {
+    "name": "Minigolfsanity",
+    "type": "toggle",
+    "img": "images/items/minigolfsanity.png",
+    "codes": "minigolfsanity"
   }
 ]
