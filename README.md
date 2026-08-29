@@ -6,7 +6,7 @@ This is a PopTracker pack for the [Mario Golf 64 Archipelago Randomizer](https:/
 
 Just download the latest build or source and put in your packs folder (unpacked).
 
-## Future Plans
+## Future Roadmap
 
 - Track misc. data (goal requirements, required courses, etc.)
 - Auto-tab during ring shot menu selection

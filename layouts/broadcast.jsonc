@@ -16,7 +16,7 @@
             "type": "itemgrid",
             "item_margin": "4, 25",
             "h_alignment": "left",
-            "item_size": "7",
+            "item_size": "7, 7",
             "rows": [
               [
                 "toadtournament","toadhighlands","short","middle"

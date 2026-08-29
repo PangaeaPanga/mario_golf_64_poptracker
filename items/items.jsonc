@@ -190,7 +190,7 @@
   {
     "name": "Gold Trophy Difficulty",
     "type": "consumable",
-    "allow_disabled": false,
+    "disabled_img_mods": "none",
     "img": "images/items/goal_gold_trophies.png",
     "overlay_background": "#000000",
     "initial_quantity": -14,
