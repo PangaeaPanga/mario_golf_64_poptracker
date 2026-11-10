@@ -113,7 +113,7 @@ function apply_slot_data(slot_data)
 	trophies.AcquiredCount = slot_data['trophy_count']
 
 	local gold_trophy_difficulty = Tracker:FindObjectForCode("gold_trophy_difficulty")
-	gold_trophy_difficulty.AcquiredCount = -10 - slot_data['gold_trophy_difficulty']
+	gold_trophy_difficulty.AcquiredCount = slot_data['gold_trophy_difficulty']
 
 	local wind_difficulty = Tracker:FindObjectForCode("wind_difficulty")
 	wind_difficulty.AcquiredCount = slot_data['wind_difficulty']
