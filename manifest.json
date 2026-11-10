@@ -1,11 +1,11 @@
 {
   "name": "Mario Golf 64 Tracker",
   "game_name": "Mario Golf 64",
-  "package_version": "0.1.0",
+  "package_version": "0.2.0",
   "package_uid": "ap_mariogolf64",
   "author": "PangaeaPanga",
   "min_poptracker_version": "0.35.1",
-  "target_poptracker_version": "0.35.1",
+  "target_poptracker_version": "0.36.0",
   "variants": {
     "standard": {
       "display_name": "Course Tracker",
