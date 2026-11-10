@@ -224,7 +224,7 @@ function rule_k()
     )
 end
 
-function par()
+function rule_par()
     return (
         hasIrons()
     )
