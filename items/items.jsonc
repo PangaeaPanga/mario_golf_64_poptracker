@@ -70,7 +70,7 @@
     "name": "Gold Trophies",
     "type": "consumable",
     "img": "images/items/gold_trophies.png",
-    "max_quantity": 5,
+    "max_quantity": 200,
     "increment": 1,
     "decrement": 1,
     "initial_quantity": 0,
