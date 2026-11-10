@@ -195,7 +195,7 @@
     "overlay_background": "#000000",
     "initial_quantity": -14,
     "min_quantity": -30,
-    "max_quantity": -10,
+    "max_quantity": -1,
     "increment": 1,
     "overlay_font_size": 14,
     "codes": "gold_trophy_difficulty"
