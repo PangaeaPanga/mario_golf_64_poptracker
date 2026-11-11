@@ -103,8 +103,17 @@ end
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
 	-- put any code here that slot_data should affect (toggling setting items for example)
-	local death_link = Tracker:FindObjectForCode("death_link")
-	death_link.Active = (slot_data['death_link'] ~= 0)
+	local death_on_bad_shot = Tracker:FindObjectForCode("death_on_bad_shot")
+	death_on_bad_shot.Active = (slot_data['death_on_bad_shot'] ~= 0)
+
+	local death_on_bogey = Tracker:FindObjectForCode("death_on_bogey")
+	death_on_bogey.Active = (slot_data['death_on_bogey'] ~= 0)
+
+	-- If death link is off, both types of sends are set to off automatically
+	if slot_data['death_link'] == 0 then
+		death_on_bad_shot.Active = false
+		death_on_bogey.Active = false
+	end
 	
 	local goal = Tracker:FindObjectForCode("goal")
 	goal.Active = (slot_data['goal'] ~= 0)

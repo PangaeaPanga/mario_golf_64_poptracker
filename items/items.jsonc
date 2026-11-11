@@ -151,10 +151,16 @@
     "codes": "mariosstar"
   },
   {
-    "name": "Death Link",
+    "name": "Death Link on Bad Shot",
     "type": "toggle",
-    "img": "images/items/death_link.png",
-    "codes": "death_link"
+    "img": "images/items/death_on_bad_shot.png",
+    "codes": "death_on_bad_shot"
+  },
+  {
+    "name": "Death Link on Bogey Or Worse",
+    "type": "toggle",
+    "img": "images/items/death_on_bogey.png",
+    "codes": "death_on_bogey"
   },
   {
     "name": "Goal",
