@@ -118,11 +118,17 @@ function apply_slot_data(slot_data)
 	local wind_difficulty = Tracker:FindObjectForCode("wind_difficulty")
 	wind_difficulty.AcquiredCount = slot_data['wind_difficulty']
 
-	local ringshotsanity = Tracker:FindObjectForCode("ringshotsanity")
-	ringshotsanity.Active = (slot_data['ringshotsanity'] ~= 0)
+	local birdiesanity = Tracker:FindObjectForCode("birdiesanity")
+	holesanity.Active = (slot_data['birdiesanity'] ~= 0)
+
+	local parsanity = Tracker:FindObjectForCode("parsanity")
+	holesanity.Active = (slot_data['parsanity'] ~= 0)
 
 	local holesanity = Tracker:FindObjectForCode("holesanity")
 	holesanity.Active = (slot_data['holesanity'] ~= 0)
+
+	local ringshotsanity = Tracker:FindObjectForCode("ringshotsanity")
+	ringshotsanity.Active = (slot_data['ringshotsanity'] ~= 0)
 
 	local windsanity = Tracker:FindObjectForCode("windsanity")
 	windsanity.Active = (slot_data['windsanity'] ~= 0)

@@ -23,8 +23,10 @@
                 "gold_trophies_required",
                 "gold_trophy_difficulty",
                 "wind_difficulty",
-                "ringshotsanity",
+                "birdiesanity",
+                "parsanity",
                 "holesanity",
+                "ringshotsanity",
                 "windsanity",
                 "pinsanity",
                 "minigolfsanity"

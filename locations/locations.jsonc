@@ -17,6 +17,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -24,6 +25,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -33,6 +35,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -52,6 +55,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_b"
             ],
@@ -59,6 +63,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -68,6 +73,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -87,6 +93,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_c"
             ],
@@ -94,6 +101,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -103,6 +111,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -122,6 +131,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_c"
             ],
@@ -129,6 +139,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -138,6 +149,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -157,6 +169,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -164,6 +177,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -173,6 +187,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -192,6 +207,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_b"
             ],
@@ -199,6 +215,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -208,6 +225,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -227,6 +245,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -234,6 +253,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -243,6 +263,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -262,6 +283,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_c"
             ],
@@ -269,6 +291,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -278,6 +301,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -297,6 +321,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -304,6 +329,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -313,6 +339,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -332,6 +359,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_b"
             ],
@@ -339,6 +367,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -348,6 +377,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -367,6 +397,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -374,6 +405,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -383,6 +415,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -402,6 +435,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_b"
             ],
@@ -409,6 +443,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -418,6 +453,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -437,6 +473,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_c"
             ],
@@ -444,6 +481,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -453,6 +491,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -472,6 +511,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -479,6 +519,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -488,6 +529,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -507,6 +549,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -514,6 +557,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -523,6 +567,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -542,6 +587,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_b"
             ],
@@ -549,6 +595,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -558,6 +605,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -577,6 +625,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_b"
             ],
@@ -584,6 +633,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -593,6 +643,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -612,6 +663,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -619,6 +671,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -628,6 +681,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -694,6 +748,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -701,6 +756,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -710,6 +766,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -729,6 +786,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -736,6 +794,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -745,6 +804,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -764,6 +824,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_c"
             ],
@@ -771,6 +832,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -780,6 +842,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -799,6 +862,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -806,6 +870,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -815,6 +880,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -834,6 +900,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -841,6 +908,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -850,6 +918,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -869,6 +938,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_c"
             ],
@@ -876,6 +946,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -885,6 +956,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -904,6 +976,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -911,6 +984,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -920,6 +994,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -939,6 +1014,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_b"
             ],
@@ -946,6 +1022,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -955,6 +1032,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -974,6 +1052,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -981,6 +1060,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -990,6 +1070,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1009,6 +1090,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -1016,6 +1098,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1025,6 +1108,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1044,6 +1128,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -1051,6 +1136,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1060,6 +1146,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1079,6 +1166,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_b"
             ],
@@ -1086,6 +1174,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1095,6 +1184,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1114,6 +1204,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_c"
             ],
@@ -1121,6 +1212,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1130,6 +1222,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1149,6 +1242,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -1156,6 +1250,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1165,6 +1260,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1184,6 +1280,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -1191,6 +1288,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1200,6 +1298,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1219,6 +1318,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_b"
             ],
@@ -1226,6 +1326,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1235,6 +1336,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1254,6 +1356,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_c"
             ],
@@ -1261,6 +1364,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1270,6 +1374,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1289,6 +1394,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_c"
             ],
@@ -1296,6 +1402,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1305,6 +1412,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1371,6 +1479,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -1378,6 +1487,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1387,6 +1497,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1406,6 +1517,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_b"
             ],
@@ -1413,6 +1525,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1422,6 +1535,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1441,6 +1555,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_c"
             ],
@@ -1448,6 +1563,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1457,6 +1573,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1476,6 +1593,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -1483,6 +1601,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1492,6 +1611,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1511,6 +1631,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -1518,6 +1639,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1527,6 +1649,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1546,6 +1669,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -1553,6 +1677,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1562,6 +1687,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1581,6 +1707,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_c"
             ],
@@ -1588,6 +1715,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1597,6 +1725,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1616,6 +1745,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -1623,6 +1753,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1632,6 +1763,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1651,6 +1783,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_c"
             ],
@@ -1658,6 +1791,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1667,6 +1801,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1686,6 +1821,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -1693,6 +1829,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1702,6 +1839,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1721,6 +1859,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -1728,6 +1867,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1737,6 +1877,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1756,6 +1897,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_c"
             ],
@@ -1763,6 +1905,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1772,6 +1915,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1791,6 +1935,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -1798,6 +1943,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1807,6 +1953,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1826,6 +1973,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -1833,6 +1981,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1842,6 +1991,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1861,6 +2011,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_b"
             ],
@@ -1868,6 +2019,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1877,6 +2029,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1896,6 +2049,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_c"
             ],
@@ -1903,6 +2057,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1912,6 +2067,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1931,6 +2087,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -1938,6 +2095,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1947,6 +2105,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -1966,6 +2125,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -1973,6 +2133,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -1982,6 +2143,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2048,6 +2210,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -2055,6 +2218,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2064,6 +2228,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2083,6 +2248,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -2090,6 +2256,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2099,6 +2266,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2118,6 +2286,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_c"
             ],
@@ -2125,6 +2294,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2134,6 +2304,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2153,6 +2324,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_b"
             ],
@@ -2160,6 +2332,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2169,6 +2342,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2188,6 +2362,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -2195,6 +2370,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2204,6 +2380,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2223,6 +2400,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_c"
             ],
@@ -2230,6 +2408,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2239,6 +2418,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2258,6 +2438,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -2265,6 +2446,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2274,6 +2456,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2293,6 +2476,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -2300,6 +2484,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2309,6 +2494,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2328,6 +2514,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -2335,6 +2522,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2344,6 +2532,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2363,6 +2552,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -2370,6 +2560,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2379,6 +2570,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2398,6 +2590,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -2405,6 +2598,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2414,6 +2608,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2433,6 +2628,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_b"
             ],
@@ -2440,6 +2636,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2449,6 +2646,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2468,6 +2666,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -2475,6 +2674,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2484,6 +2684,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2503,6 +2704,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -2510,6 +2712,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2519,6 +2722,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2538,6 +2742,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -2545,6 +2750,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2554,6 +2760,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2573,6 +2780,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -2580,6 +2788,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2589,6 +2798,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2608,6 +2818,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -2615,6 +2826,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2624,6 +2836,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2643,6 +2856,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_c"
             ],
@@ -2650,6 +2864,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2659,6 +2874,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2725,6 +2941,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -2732,6 +2949,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2741,6 +2959,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2760,6 +2979,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -2767,6 +2987,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2776,6 +2997,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2795,6 +3017,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -2802,6 +3025,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2811,6 +3035,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2830,6 +3055,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -2837,6 +3063,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2846,6 +3073,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2865,6 +3093,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -2872,6 +3101,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2881,6 +3111,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2900,6 +3131,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -2907,6 +3139,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2916,6 +3149,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2935,6 +3169,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -2942,6 +3177,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2951,6 +3187,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -2970,6 +3207,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_b"
             ],
@@ -2977,6 +3215,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -2986,6 +3225,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3005,6 +3245,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -3012,6 +3253,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3021,6 +3263,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3040,6 +3283,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -3047,6 +3291,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3056,6 +3301,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3075,6 +3321,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -3082,6 +3329,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3091,6 +3339,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3110,6 +3359,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -3117,6 +3367,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3126,6 +3377,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3145,6 +3397,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -3152,6 +3405,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3161,6 +3415,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3180,6 +3435,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -3187,6 +3443,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3196,6 +3453,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3215,6 +3473,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -3222,6 +3481,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3231,6 +3491,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3250,6 +3511,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -3257,6 +3519,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3266,6 +3529,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3285,6 +3549,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -3292,6 +3557,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3301,6 +3567,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3320,6 +3587,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -3327,6 +3595,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3336,6 +3605,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3402,6 +3672,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_b"
             ],
@@ -3409,6 +3680,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3418,6 +3690,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3437,6 +3710,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -3444,6 +3718,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3453,6 +3728,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3472,6 +3748,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -3479,6 +3756,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3488,6 +3766,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3507,6 +3786,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -3514,6 +3794,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3523,6 +3804,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3542,6 +3824,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_f"
             ],
@@ -3549,6 +3832,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3558,6 +3842,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3577,6 +3862,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_b"
             ],
@@ -3584,6 +3870,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3593,6 +3880,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3612,6 +3900,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_b"
             ],
@@ -3619,6 +3908,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3628,6 +3918,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3647,6 +3938,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -3654,6 +3946,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3663,6 +3956,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3682,6 +3976,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -3689,6 +3984,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3698,6 +3994,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3717,6 +4014,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -3724,6 +4022,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3733,6 +4032,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3752,6 +4052,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -3759,6 +4060,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3768,6 +4070,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3787,6 +4090,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_c"
             ],
@@ -3794,6 +4098,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3803,6 +4108,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3822,6 +4128,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -3829,6 +4136,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3838,6 +4146,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3857,6 +4166,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -3864,6 +4174,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3873,6 +4184,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3892,6 +4204,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -3899,6 +4212,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3908,6 +4222,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3927,6 +4242,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_a"
             ],
@@ -3934,6 +4250,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3943,6 +4260,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3962,6 +4280,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_c"
             ],
@@ -3969,6 +4288,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -3978,6 +4298,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],
@@ -3997,6 +4318,7 @@
         "sections": [
           {
             "name": "Birdie Badge",
+            "visibility_rules": ["$has_birdiesanity"],
             "access_rules": [
               "$rule_d"
             ],
@@ -4004,6 +4326,7 @@
           },
           {
             "name": "Par",
+            "visibility_rules": ["$has_parsanity"],
             "chest_unopened_img": "images/items/par.png",
             "chest_opened_img": "images/items/par_grey.png",
             "access_rules": [
@@ -4013,6 +4336,7 @@
           },
           {
             "name": "Hole Clear",
+            "visibility_rules": ["$has_holesanity"],
             "chest_unopened_img": "images/items/hole_clear.png",
             "chest_opened_img": "images/items/hole_clear_grey.png",
             "access_rules": [],

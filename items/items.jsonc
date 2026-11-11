@@ -211,17 +211,29 @@
     "overlay_font_size": 14,
     "codes": "wind_difficulty"
   },
-  {
-    "name": "Ringshotsanity",
+   {
+    "name": "Birdiesanity",
     "type": "toggle",
-    "img": "images/items/ring_shot.png",
-    "codes": "ringshotsanity"
+    "img": "images/items/birdiesanity.png",
+    "codes": "birdiesanity"
+  },
+   {
+    "name": "Parsanity",
+    "type": "toggle",
+    "img": "images/items/parsanity.png",
+    "codes": "parsanity"
   },
   {
     "name": "Holesanity",
     "type": "toggle",
     "img": "images/items/holesanity.png",
     "codes": "holesanity"
+  },
+  {
+    "name": "Ringshotsanity",
+    "type": "toggle",
+    "img": "images/items/ring_shot.png",
+    "codes": "ringshotsanity"
   },
   {
     "name": "Windsanity",
